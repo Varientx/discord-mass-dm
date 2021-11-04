@@ -10,7 +10,7 @@ except (ModuleNotFoundError):
 clear = lambda: os.system("cls; clear")
 
 client = commands.Bot(
-  command_prefix="Krypton#1337",
+  command_prefix="hdjejdjsjskw",
   intents=discord.Intents.all()
 )
 
@@ -32,7 +32,7 @@ async def fetch(guild):
     os._exit(0)
   
 
-async def massdm(message): # <- Avoiding ratelimit is key.
+async def massdm(message): 
   for x in open("users.txt"):
     member = await client.fetch_user(x)
     try:
